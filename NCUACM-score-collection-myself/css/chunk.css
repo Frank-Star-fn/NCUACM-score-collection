@@ -1,3 +1,9 @@
+.shallowgreen-background {
+	background-color: rgb(232, 248, 232);
+}
+.shalloworange-background {
+	background-color: rgb(258, 250, 227);
+}
 table { 
 	margin-right: auto; /* 居中 */
 	margin-left: auto; 
