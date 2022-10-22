@@ -1,181 +1,148 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="icon" href="favicon.ico">
-        <title>
-            NCUACM
-        </title>
-        <link href="css/chunk.css" rel="preload" as="style">
-        <link href="css/app.css" rel="preload" as="style">
-        <link href="css/chunk.css" rel="stylesheet">
-        <link href="css/app.css" rel="stylesheet">
-    </head>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="favicon.ico">
+  <title>
+    NCUACM
+  </title>
+  <link href="css/chunk.css" rel="preload" as="style">
+  <link href="css/app.css" rel="preload" as="style">
+  <link href="css/chunk.css" rel="stylesheet">
+  <link href="css/app.css" rel="stylesheet">
+</head>
 
 <body style="height: 100%; width: 100%">
-    <noscript>
-        <strong>
-            We're sorry but NCUACM doesn't work properly without JavaScript enabled.
-            Please enable it to continue.
-        </strong>
-    </noscript>
-    <div id="app">
-        <section data-v-72cd32ba="" class="el-container is-vertical">
-            <header data-v-72cd32ba="" class="el-header" style="height: 60px;">
-                <div data-v-ca68686e="" data-v-72cd32ba="" style="height: 100%;">
-                    <header data-v-ca68686e="" class="el-header" value="NCUACM暑期集训成绩在线管理平台"
-                    style="height: 60px;">
-                        <div data-v-ca68686e="" style="height: 60%;">
-                            NCUACM暑期集训成绩在线管理平台
-                        </div>
-                        <div data-v-ca68686e="" style="height: 5%;">
-                            <div data-v-ca68686e="" class="el-divider el-divider--horizontal"></div>
-                        </div>
-                        <div data-v-ca68686e="" style="height: 100%;">
-                            <!-- <button data-v-ca68686e="" type="button" class="el-button el-button--primary is-plain"
-                            id="back">
-                                返回
-                                <i class="el-icon-arrow-left"></i>
-                            </button> -->
-                        </div>
-                    </header>
-                </div>
-            </header>
-            <div data-v-72cd32ba="" style="height: 100%; font-size: xx-large;">
-                <div style="height: 10%;">
-                    <div style="float: left;">
-                        <button type="button" class="el-button el-button--primary">
-                            <span>
-                                常见问题
-                            </span>
-                        </button>
-                        <div data-v-d40ea11a="" class="el-dialog__wrapper" style="display: none; margin-bottom: 0px;">
-                            <div role="dialog" aria-modal="true" aria-label="dialog" class="el-dialog"
-                            style="margin-top: 10px; width: 600px;">
-                                <div class="el-dialog__header">
-                                    <span class="el-dialog__title">
-                                    </span>
-                                    <button type="button" aria-label="Close" class="el-dialog__headerbtn">
-                                        <!-- <i class="el-dialog__close el-icon el-icon-close">
-                                        </i> -->
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div style="height: 18%;">
-                    <div class="el-row">
-                        <!-- 跳转到提交页面 -->
-                        <a href="v0submit.html"> 
-                            <button type="button" class="el-button el-button--success is-plain">
-                                <!-- <i class="el-icon-edit"></i> -->
-                                <span>
-                                    <span>
-                                        提交队伍比赛成绩
-                                    </span>
-                                </span>
-                            </button>
-                        </a>
-                    </div>
-                </div>
-                <div style="height: 18%;">
-                    <div class="el-row">
-                        <button type="button" class="el-button el-button--success is-plain">
-                            <!-- <i class="el-icon-search">
-                            </i> -->
-                            <span>
-                                <span>
-                                    查询具体比赛的队伍成绩（暂未开放）
-                                </span>
-                            </span>
-                        </button>
-                    </div>
-                </div>
-                <div style="height: 18%;">
-                    <div class="el-row">
-                        <button type="button" class="el-button el-button--success is-plain">
-                            <!-- <i class="el-icon-document-checked"></i> -->
-                            <span>
-                                <span>
-                                    查询队伍的所有比赛成绩（暂未开放）
-                                </span>
-                            </span>
-                        </button>
-                    </div>
-                </div>
-                <div style="height: 18%;">
-                    <div class="el-row">
-                        <a href="v0rank.html">
-                            <button type="button" class="el-button el-button--success is-plain">
-                                <!-- <i class="el-icon-view"></i> -->
-                                <span>
-                                    <span>
-                                        查看队伍成绩积分排行榜
-                                    </span>
-                                </span>
-                            </button>
-                        </a>
-                    </div>
-                </div>
-                <div style="height: 15%;">
-                    <div class="el-row">
-                        <button type="button" class="el-button el-button--success is-plain">
-                            <!-- <i class="el-icon-circle-plus-outline"></i> -->
-                            <span>
-                                <span>
-                                    平台管理(暂未开放)
-                                </span>
-                            </span>
-                        </button>
-                        <div class="el-dialog__wrapper" style="display: none;">
-                            <div role="dialog" aria-modal="true" aria-label="后台管理登录" class="el-dialog"
-                            style="margin-top: 15vh; width: 400px;">
-                                <div class="el-dialog__header">
-                                    <span class="el-dialog__title">
-                                        后台管理登录
-                                    </span>
-                                    <button type="button" aria-label="Close" class="el-dialog__headerbtn">
-                                        <i class="el-dialog__close el-icon el-icon-close"></i>
-                                    </button>
-                                </div>
-
-                                <div class="el-dialog__footer">
-                                    <div class="dialog-footer">
-                                        <button type="button" class="el-button el-button--default">
-                                            <span>
-                                                取 消
-                                            </span>
-                                        </button>
-                                        <button type="button" class="el-button el-button--primary">
-                                            <span>
-                                                确 定
-                                            </span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <div id="app">
+    <section data-v-72cd32ba="" class="el-container is-vertical">
+      <header data-v-72cd32ba="" class="el-header" style="height: 60px;">
+        <div data-v-ca68686e="" data-v-72cd32ba="" style="height: 100%;">
+          <header data-v-ca68686e="" class="el-header" value="NCUACM暑期集训成绩在线管理平台"
+          style="height: 60px;">
+            <div data-v-ca68686e="" style="height: 60%;">
+              NCUACM暑期集训成绩在线管理平台
             </div>
-            <footer data-v-72cd32ba="" class="el-footer" style="height: 60px;">
-                <div data-v-ea49f87a="" data-v-72cd32ba="" style="height: 100%;">
-                    <footer data-v-ea49f87a="" class="el-footer" style="height: 60px;">
-                        <div data-v-ea49f87a="" style="height: 10%;">
-                            <div data-v-ea49f87a="" class="el-divider el-divider--horizontal"></div>
-                        </div>
-                        <div data-v-ea49f87a="" style="margin-top: 0px; margin-bottom: 0px; font-size: 18px; line-height: 5px;">
-                            <p data-v-ea49f87a="">
-                                NCUACM
-                            </p>
-                        </div>
-                    </footer>
+            <div data-v-ca68686e="" style="height: 5%;">
+              <div data-v-ca68686e="" class="el-divider el-divider--horizontal"></div>
+            </div>
+          </header>
+        </div>
+      </header>
+      <div data-v-72cd32ba="" style="height: 100%; font-size: xx-large;">
+        <div style="height: 10%;">
+          <div style="float: left;">
+            <button type="button" class="el-button el-button--primary">
+              <span>
+                常见问题
+              </span>
+            </button>
+            <div data-v-d40ea11a="" class="el-dialog__wrapper" style="display: none; margin-bottom: 0px;">
+              <div role="dialog" aria-modal="true" aria-label="dialog" class="el-dialog"
+              style="margin-top: 10px; width: 600px;">
+                <div class="el-dialog__header">
+                  <span class="el-dialog__title"></span>
+                  <button type="button" aria-label="Close" class="el-dialog__headerbtn"></button>
                 </div>
-            </footer>
-        </section>
-    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="height: 18%;">
+          <div class="el-row">
+            <!-- 跳转到提交页面 -->
+            <a href="v0submit.html"> 
+              <button type="button" class="el-button el-button--success is-plain">
+                <span>
+                  <span>
+                    提交队伍比赛成绩
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div style="height: 18%;">
+          <div class="el-row">
+            <button type="button" class="el-button el-button--success is-plain">
+              <span>
+                <span>
+                  查询具体比赛的队伍成绩（暂未开放）
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div style="height: 18%;">
+          <div class="el-row">
+            <button type="button" class="el-button el-button--success is-plain">
+              <span>
+                <span>
+                  查询队伍的所有比赛成绩（暂未开放）
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div style="height: 18%;">
+          <div class="el-row">
+            <a href="v0rank.html">
+              <button type="button" class="el-button el-button--success is-plain">
+                <span>
+                  <span>
+                    查看队伍成绩积分排行榜
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div style="height: 15%;">
+          <div class="el-row">
+            <button type="button" class="el-button el-button--success is-plain">
+              <span>
+                <span>
+                  平台管理(暂未开放)
+                </span>
+              </span>
+            </button>
+            <div class="el-dialog__wrapper" style="display: none;">
+              <div role="dialog" aria-modal="true" aria-label="后台管理登录" class="el-dialog"
+              style="margin-top: 15vh; width: 400px;">
+                <div class="el-dialog__header">
+                  <span class="el-dialog__title">
+                    后台管理登录
+                  </span>
+                  <button type="button" aria-label="Close" class="el-dialog__headerbtn"></button>
+                </div>
+                <div class="el-dialog__footer">
+                  <div class="dialog-footer">
+                    <button type="button" class="el-button el-button--default">
+                      <span>
+                        取 消
+                      </span>
+                    </button>
+                    <button type="button" class="el-button el-button--primary">
+                      <span>
+                        确 定
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="el-footer" style="height: 60px;">
+        <div class="el-divider el-divider--horizontal"></div>
+          <div style="font-size: 18px; line-height: 5px;">
+            <p>NCUACM</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </div>
 </body>
 </html>
